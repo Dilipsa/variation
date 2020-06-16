@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Dilip</title>
+</head>
+<body>
+<h3>Hello Dilip!!! welcome to product List</h3>
+{% for obj in obj %}
+{{obj.name}}<br>
+{{obj.price}}<br>
+{{obj.product_category}}<br>
+<img src="{{ obj.image.url }}" height="50px;" width="50px;"><br><br>
+{% endfor %}
+</body>
+</html>
